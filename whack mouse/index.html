@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+    img{
+    	display: none;
+    }
+    canvas{
+    	position: absolute;
+    	left: 40%;
+    }
+	</style>
+</head>
+<body>
+	<img src="img/bj.png" alt="" id="bj">
+	<img src="img/cd.png" alt="" id="img_cd">
+	<img src="img/chuizi.png" alt="" id="img_chuizi">
+	<img src="img/cw.png" alt="" id="img_cw">
+	<img src="img/cwk.png" alt="" id="img_cwk">
+	<img src="img/dishu.png" alt="" id="img_dishu">
+	<img src="img/dishu_2.png" alt="" id="img_dishu_2">
+	<img src="img/life.png" alt="" id="img_life">
+	<img src="img/life1.png" alt="" id="img_life1">
+	<img src="img/logo.png" alt="" id="img_logo">
+	<img src="img/num_1.png" alt="" id="img_num_1">
+	<img src="img/num_3.png" alt="" id="img_num_3">
+	<img src="img/ready.png" alt="" id="img_ready">
+	<img src="img/ts.png" alt="" id="img_ts">
+	<img src="img/tuzi.png" alt="" id="img_tuzi">
+	<img src="img/ui.png" alt="" id="img_ui"> 
+	<canvas width="240" height="320" id="mycanvas"></canvas>
+	<script src="js/mygame.js"></script>
+	<script>
+      window.onload=function(){
+      	var mycanvas=document.getElementById("mycanvas");
+
+      	var ctx=mycanvas.getContext("2d");
+      	var game= new Game(ctx);
+
+      }
+       
+	</script>
+
+</body>
+</html>
